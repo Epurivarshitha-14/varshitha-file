@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Expense Tracker</h1>
+    <form id="expenseForm">
+        <input type="text" name="category" placeholder="Category" required>
+        <input type="number" name="amount" placeholder="Amount" required>
+        <input type="hidden" name="user" value="demoUser">
+        <button type="submit">Add Expense</button>
+    </form>
+    <div id="expenses"></div>
+    <canvas id="expenseChart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
