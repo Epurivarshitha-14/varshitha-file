@@ -1,0 +1,18 @@
+<web-app>
+  <servlet>
+    <servlet-name>ExpenseServlet</servlet-name>
+    <servlet-class>com.expensetracker.ExpenseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExpenseServlet</servlet-name>
+    <url-pattern>/addExpense</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.expensetracker.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+</web-app>
